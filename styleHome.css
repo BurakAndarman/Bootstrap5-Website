@@ -1,5 +1,13 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.color-primary{
+    background-color:rgba(82,59,228,1);
+}
+
+.card-width{
+   max-width:72%;
 }
 
 @media screen and (min-width:992px) {
@@ -7,6 +15,6 @@ body{
         margin-left:4em;
     }    
     .me-6{
-        margin-right:8em;
+        margin-right:6em;
     }
 }
