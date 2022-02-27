@@ -10,6 +10,10 @@ body{
     background-color: #ffb8d887;
 }
 
+.mt-6{
+    margin-top: 5rem;
+}
+
 .card-width{
    max-width:75%;
 }
