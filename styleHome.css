@@ -6,12 +6,28 @@ body{
     background-color:rgba(82,59,228,1);
 }
 
+.color-secondary{
+    background-color: rgb(220 220 255);
+}
+
 .card-width{
    max-width:75%;
 }
 
+.card-width-2{
+   width:75%;
+}
+
 .carousel-height{
-   height:35rem;
+    height:31rem;
+}
+
+.mt-n1{
+    margin-top:-1rem !important;
+}
+
+.card-width-fixed{
+    width: 20rem !important;
 }
 
 @media screen and (min-width:992px) {
