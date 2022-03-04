@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styleDriver.css">
     <link rel="stylesheet" href="/styleHome.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,5 +13,207 @@
     <title>Lyft | Driver</title>
 </head>
 <body>
+
+     <nav class="navbar navbar-light navbar-expand-lg">
+       <div class="container"> 
+            <a class="navbar-brand ms-md-5" href="home.html"><img src="/icons/lyft-logo.svg" ></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                <span class="navbar-toggler-icon"></span>
+            </button>   
+            
+            <div class="offcanvas offcanvas-end"  id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-header">
+                    <a class="offcanvas-logo" id="offcanvasNavbarLogo" href="home.html"><img src="/icons/lyft-logo.svg" ></a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav m-auto me-5 my-2">
+                      <li class="nav-item me-4">
+                        <a class="nav-link" href="/driver.html"><b>DRIVER</b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/rider.html"><b>RIDER</b></a>
+                      </li>
+                    </ul>
+                </div>
+            </div>                      
+        </div>
+      </nav>
+
+      <section class="mt-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 m-auto ps-lg-4 order-lg-2">
+              <h1 class="mt-3 mb-4 display-3"><b>Make every<br>day payday</b></h1>
+              <form>
+                <input class="form-control border border-secondary input-size-large input-size-medium mt-4 my-lg-3" type="text" placeholder="Enter mobile phone number*">
+                <div class="d-flex flex-column-reverse flex-lg-row align-items-lg-center">
+                  <button type="submit" class="btn btn-primary color-primary rounded-pill btn-size me-lg-3 py-2 px-4">Apply to drive</button>             
+                  <div class="form-check" style="margin: 2em 0">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+                    <label class="form-check-label" for="flexCheckDefault">                  
+                        <small> I agree to Lyft's <a class="text-dark" href="#">Terms of Service</a></small>
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-6 py-5 order-lg-1">
+              <img src="/photos/dvr_hero_pp.webp" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-5">
+        <div class="container">
+          <div class="row p-md-5">
+            <div class="col-md-6 m-auto">
+              <h2 class="pb-2">Cash out right away</h2>
+              <p class="pb-4">Want your cash fast? Get paid in just around an hour or two with Express Pay. Or sign up for a <a class="text-dark" href="#">Lyft Direct</a> debit card for instant access to earnings, after every ride.</p>
+              <a href="#" class="text-decoration-none text-dark pb-4"><small>Read all about driver pay</small><span><img src="/icons/bx-right-arrow-alt.svg"></span></a>
+            </div>
+            <div class="col-md-5 offset-md-1 pt-4">
+              <img src="/photos/0413_HOSPITAL_4677-V02_1.webp" class="img-fluid photo-2-size" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="mt-6">
+        <div class="container p-md-5">
+          <div class="row ps-md-5">
+              <div class="col-md-3 d-none d-md-block">
+                <h6 class="mb-4">DRIVER</h6>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Earnings</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Become a Driver</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Cities</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Help</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Safety</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Application requirements</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Expressive Drive</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Bonus</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Driving Opportunities</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Lyft Rewards</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Insurence</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Hub</small></a>
+              </div>
+              <div class="col-md-3 d-none d-md-block">
+                <h6 class="mb-4">RIDER</h6>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Fare Estimate</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Sign up to ride</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Lyft Pink</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Cities</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Help</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Safety</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Business Profile</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Rewards</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Events</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Airports</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Gift Cards</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Donate</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Blog</small></a>
+              </div>
+              <div class="col-md-3 d-none d-md-block">
+                <h6 class="mb-4">LYFT</h6>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Careers</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>LyftUp</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Business</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Rentals</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Bikes</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Scooters</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Self-Driving</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Lyft Media</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Developers</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Press</small></a>
+                <a href="#" class="d-block text-decoration-none text-muted mb-1"><small>Investor Relations</small></a>
+              </div>
+              <div class="accordion d-md-none accordion-flush mb-5" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      DRIVER
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Earnings</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Become a Driver</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Cities</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Help</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Safety</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Application requirements</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Expressive Drive</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Bonus</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Driving Opportunities</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Lyft Rewards</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Insurence</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Hub</small></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      RIDER
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Fare Estimate</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Sign up to ride</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Lyft Pink</small></a>
+                      <a href="#" class="d-b3ock text-decoration-none text-muted mb-3"><small>Cities</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Help</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Safety</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Business Profile</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Rewards</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Events</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Airports</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Gift Cards</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Donate</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Blog</small></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      LYFT
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Careers</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>LyftUp</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Business</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Rentals</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Bikes</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Scooters</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Self-Driving</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Lyft Media</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Developers</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Press</small></a>
+                      <a href="#" class="d-block text-decoration-none text-muted mb-3"><small>Investor Relations</small></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-3 d-flex flex-column align-items-center">
+              <button class="btn btn-outline-secondary rounded-pill py-2 px-4 mb-3">Lyft driver app</button>
+              <button class="btn btn-outline-secondary rounded-pill py-2 px-4 mb-3">Lyft rider app</button>
+              <button class="btn btn-outline-secondary rounded-pill py-2 px-4">Ride on web</button>
+            </div>
+          </div>
+          <div class="text-end mt-5 mb-2">
+              <small class="me-3">© 2022 Lyft, Inc.</small>
+              <a href="#" class="me-1"><img src="/icons/bxl-twitter.svg"></a>
+              <a href="#" class="me-1"><img src="/icons/bxl-facebook.svg"></a>
+              <a href="#"><img src="/icons/bxl-instagram.svg"></a>
+          </div>
+        </div>
+      </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
