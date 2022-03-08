@@ -42,3 +42,13 @@ body{
         margin-right:6em;
     }
 }
+
+@media screen and (max-width:992px) {
+    .mt-sm-6{
+        margin-top: 5rem;
+    }
+
+    .mt-sm-7{
+        margin-top: 10rem;
+    }
+}
